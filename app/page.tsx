@@ -2,7 +2,6 @@ import Footer from "@/components/client/footer";
 import Header from "@/components/client/header";
 import React from "react";
 import Content from "@/components/client/content";
-import FormUpdater from "@/components/client/form-updater";
 
 const Home = () => {
   return (
@@ -11,7 +10,6 @@ const Home = () => {
         <Header />
         <Content />
         <Footer />
-        <FormUpdater />
       </div>
     </>
   );
