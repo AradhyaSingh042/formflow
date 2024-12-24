@@ -1,6 +1,6 @@
 # FormFlow
 
-FormFlow is a multi-step form application designed for real-time collaboration and enhanced user experience. The project leverages modern frontend technologies such as Next.js, Tailwind CSS, Zustand/Redux (or Context API), ShadCN UI, and Framer Motion to deliver a polished and responsive application.
+FormFlow is a multi-step form application designed for real-time collaboration and enhanced user experience. The project leverages modern frontend technologies such as Next.js, Tailwind CSS, Zustand, React Hook Form ShadCN UI, and Framer Motion to deliver a polished and responsive application.
 
 ---
 
@@ -13,7 +13,7 @@ FormFlow is a multi-step form application designed for real-time collaboration a
 
 2. **Dynamic State Management**:
 
-   - Utilizes Zustand/Redux or Context API for managing form data across steps.
+   - Utilizes Zustand for managing form data across steps.
    - Persistent state that updates dynamically as users fill out the form.
 
 3. **Real-Time Collaboration**:
@@ -28,11 +28,6 @@ FormFlow is a multi-step form application designed for real-time collaboration a
 5. **Enhanced UI/UX**:
 
    - Smooth animations with Framer Motion.
-   - Tooltips, placeholders, and toast notifications for better user guidance.
-
-6. **Accessibility & Localization**:
-   - WCAG-compliant design with keyboard navigation and ARIA roles.
-   - Optional multi-language support via next-i18next.
 
 ---
 
@@ -40,7 +35,7 @@ FormFlow is a multi-step form application designed for real-time collaboration a
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) and [ShadCN UI](https://shadcn.dev/)
-- **State Management**: Zustand
+- **State Management**: [Zustand](https://zustand.docs.pmnd.rs/getting-started/introduction)
 - **Animations**: [Motion](https://motion.dev/docs)
 - **Form Management**: [React Hook Form](https://www.react-hook-form.com/)
 
