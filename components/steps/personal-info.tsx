@@ -10,7 +10,9 @@ const PersonalInfo = () => {
     register,
     control,
     formState: { errors },
-  } = useForm();
+  } = useForm({
+    mode: "onChange",
+  });
 
   const personalInfoValues = useWatch({
     control,
@@ -55,7 +57,6 @@ const PersonalInfo = () => {
               },
             })}
           />
-
           {errors.name && (
             <span role="alert" className="text-red-500 text-sm">
               {errors.name.message as string}
@@ -78,7 +79,6 @@ const PersonalInfo = () => {
               },
             })}
           />
-
           {errors.email && (
             <span role="alert" className="text-red-500 text-sm">
               {errors.email.message as string}
@@ -101,7 +101,6 @@ const PersonalInfo = () => {
               },
             })}
           />
-
           {errors.phone && (
             <span role="alert" className="text-red-500 text-sm">
               {errors.phone.message as string}
